@@ -1,0 +1,38 @@
+body {
+    font-size: 2rem;
+    width: 800px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: grid;
+    grid-template:
+    "... form  ..."
+    /auto 1fr auto;
+   
+}
+
+form {
+grid-area: form;
+
+}
+
+.btn-square {
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  text-decoration: none;
+  background: #007bff;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-square:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+body1 {
+    font-size: 2rem;
+    
+}
